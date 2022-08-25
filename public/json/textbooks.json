@@ -1,0 +1,37 @@
+{
+    "python": [
+        {
+            "title": "Automate the boring stuff with Python",
+            "path": "/data/textbooks/Automate the boring stuff with Python(A L Sweigart).pdf"
+        },
+        {
+            "title": "Introduction to Computer Science using Python",
+            "path": "/data/textbooks/Introduction to Computer Science using Python(Charles Dierbach).pdf"
+        },
+        {
+            "title": "Python OOP",
+            "path": "/data/textbooks/LEARNING PYTHON POWERFUL OBJECT-ORIENTED PROGRAMMING(Mark Lutz).pdf"
+        }
+    ],
+    "english": [
+        {
+            "title": "Tenses and how to use them",
+            "path": ""
+        },
+        {
+            "title": "",
+            "path": ""
+        }
+    ],
+
+    "hindi": [
+        {
+            "title": "",
+            "path": ""
+        },
+        {
+            "title": "",
+            "path": ""
+        }
+    ]
+}

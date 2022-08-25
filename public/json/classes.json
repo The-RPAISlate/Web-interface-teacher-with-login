@@ -1,0 +1,50 @@
+[
+    {
+        "logo_path": "/images/school_logo.png",
+        "school_name": "Army public school",
+        "class": 3,
+        "teacher": "DaVinci",
+        "subjects": [
+            {
+                "name": "English",
+                "url": "english"
+            },
+            {
+                "name": "Hindi",
+                "url": "hindi"
+            }
+        ]
+    },
+    {
+        "logo_path": "/images/school_logo.png",
+        "school_name": "Army public school",
+        "class": 10,
+        "teacher": "Daemon",
+        "subjects": [
+            {
+                "name": "Python",
+                "url": "python"
+            },
+            {
+                "name": "Computer Networks",
+                "url": "computernetworks"
+            }
+        ]
+    },
+    {
+        "logo_path": "/images/school_logo.png",
+        "school_name": "Army public school",
+        "class": 7,
+        "teacher": "Fyneman",
+        "subjects": [
+            {
+                "name": "Science",
+                "url": "science"
+            },
+            {
+                "name": "Mathematics",
+                "url": "mathematics"
+            }
+        ]
+    }
+]

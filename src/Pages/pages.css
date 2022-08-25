@@ -1,0 +1,34 @@
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-auto-rows: 200px;
+    gap: 20px;
+    margin: 20px;
+    background-color: rgba(242, 242, 242, 0.6);
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px rgba(150, 150, 150, 0.15),
+                -1px -1px 10px rgba(150, 150, 150, 0.15);
+}
+
+.subject-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.subject-title{
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    background-color: #fffac2;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.file{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+}

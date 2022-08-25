@@ -1,0 +1,38 @@
+{
+    "class": 3,
+    "teacher": "Richard Feynman",
+    "subjects": [
+        {
+            "name": "Python",
+            "url": "python"
+        },
+        {
+            "name": "English",
+            "url": "english"
+        },
+        {
+            "name": "Hindi",
+            "url": "hindi"
+        },
+        {
+            "name": "Science",
+            "url": "science"
+        },
+        {
+            "name": "Mathematics",
+            "url": "mathematics"
+        },
+        {
+            "name": "General Knowledge",
+            "url": "generalknowledge"
+        },
+        {
+            "name": "Social Science",
+            "url": "socialscience"
+        },
+        {
+            "name": "Computer Networks",
+            "url": "computernetworks"
+        }
+    ]
+}

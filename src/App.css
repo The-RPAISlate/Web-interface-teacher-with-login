@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background-color: #fffaf2;
+}
+
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: url("./Assets/bg-curve.svg"), #fffaf2;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 102%;
+  min-height: 100%;
+
+  overflow-x: hidden;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  min-height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Scrollbar styling */
+::-webkit-scrollbar{
+  width: 10px;
+  border-radius: 100vw;
+  margin-block: 50px;
+  position: absolute;
+  right: 0;
+}
+
+::-webkit-scrollbar-track{
+  background-color: rgba(150,150,150,0.5);
+  border-radius: 100vw;
+  margin-block: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #ffe8c2;
+  border-radius: 100vw;
+  border: 1px solid orange;
+  margin-block: 5px;
+}
+
+@supports (scrollbar-color: red blue){
+  * {
+    scrollbar-color: #ffe8c2 rgba(150,150,150,0.5);
+    scrollbar-width: thin;
+  }
+}
+
+
+/* Medium screens */
+@media only screen and (min-width:768.01px) and (max-width: 996px){
+
+  body{
+    background-size: 130%;
+  }
+}
+
+/* Small screens */
+@media only screen and (max-width:768px){
+
+  body{
+    background-size: 130%;
+  }
+}
+
+/* Very small screens */
+@media only screen and (max-width:650px){
+
+  body{
+    background-size: 200%;
+    overflow-x: hidden;
+  }
+}
